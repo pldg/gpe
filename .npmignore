@@ -1,3 +1,5 @@
+.vscode/
+tmp/
 tests/
 demo/
 .github/
