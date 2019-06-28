@@ -87,6 +87,7 @@ Output:
 - [Getting started tutorial](doc/getting-started-tutorial.md)
 - [Generate candidates](doc/generate-candidates.md)
 - [API](doc/api.md)
+- [Examples](doc/examples.md)
 
 ## Test
 
