@@ -88,6 +88,7 @@ Output:
 - [Generate candidates](doc/generate-candidates.md)
 - [API](doc/api.md)
 - [Examples](doc/examples.md)
+- [Demo](demo/)
 
 ## Test
 

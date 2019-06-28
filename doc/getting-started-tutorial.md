@@ -79,6 +79,6 @@ It'll produce this output:
 </picture>
 ```
 
-You may want to pass other options to achieve a different output. More info at [API](./api.md) page.
+You may want to pass other options to achieve a different output. More info at [API](./api.md) page. See also [examples](examples.md) and [demo](../demo/).
 
 *Note:* If *srcset* has *width descriptor* the [sizes attribute](https://html.spec.whatwg.org/multipage/embedded-content.html#attr-img-sizes) should also be present (in the example above [`size`](api.md#options.breakpoints[].size) is omitted to keep it simple).
