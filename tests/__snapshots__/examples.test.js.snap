@@ -1,0 +1,186 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`\`alt\` example-9 snapshot 1`] = `
+"<picture>
+  <source
+    sizes=\\"100vw\\"
+    srcset=\\"triss_400w.webp 400w, triss_800w.webp 800w\\"
+    type=\\"image/webp\\">
+  <img
+    alt=\\"triss\\"
+    sizes=\\"100vw\\"
+    srcset=\\"triss_400w.jpg 400w, triss_800w.jpg 800w\\"
+    src=\\"triss_800w.jpg\\"
+    type=\\"image/jpeg\\">
+</picture>"
+`;
+
+exports[`\`className\` example-10 snapshot 1`] = `
+"<picture class=\\"triss\\">
+  <source
+    sizes=\\"100vw\\"
+    srcset=\\"triss_400w.webp 400w, triss_800w.webp 800w\\"
+    type=\\"image/webp\\">
+  <img
+    sizes=\\"100vw\\"
+    srcset=\\"triss_400w.jpg 400w, triss_800w.jpg 800w\\"
+    src=\\"triss_800w.jpg\\"
+    type=\\"image/jpeg\\">
+</picture>"
+`;
+
+exports[`\`extensions\` example-8 snapshot 1`] = `
+"<picture>
+  <source
+    sizes=\\"100vw\\"
+    srcset=\\"triss_400w.jpg 400w, triss_800w.jpg 800w\\"
+    type=\\"image/jpeg\\">
+  <img
+    sizes=\\"100vw\\"
+    srcset=\\"triss_400w.webp 400w, triss_800w.webp 800w\\"
+    src=\\"triss_800w.webp\\"
+    type=\\"image/webp\\">
+</picture>"
+`;
+
+exports[`\`publicPath\` example-11 snapshot 1`] = `
+"<picture>
+  <source
+    sizes=\\"100vw\\"
+    srcset=\\"images/triss_400w.webp 400w, images/triss_800w.webp 800w\\"
+    type=\\"image/webp\\">
+  <img
+    sizes=\\"100vw\\"
+    srcset=\\"images/triss_400w.jpg 400w, images/triss_800w.jpg 800w\\"
+    src=\\"images/triss_800w.jpg\\"
+    type=\\"image/jpeg\\">
+</picture>"
+`;
+
+exports[`\`src\` example-12 snapshot 1`] = `
+"<picture>
+  <source
+    sizes=\\"100vw\\"
+    srcset=\\"triss_400w.webp 400w, triss_800w.webp 800w\\"
+    type=\\"image/webp\\">
+  <img
+    sizes=\\"100vw\\"
+    srcset=\\"triss_400w.jpg 400w, triss_800w.jpg 800w\\"
+    src=\\"triss_400w.jpg\\"
+    type=\\"image/jpeg\\">
+</picture>"
+`;
+
+exports[`\`src\` warning example-13 snapshot 1`] = `
+"<picture>
+  <source
+    sizes=\\"100vw\\"
+    srcset=\\"triss_400w.webp 400w, triss_800w.webp 800w\\"
+    type=\\"image/webp\\">
+  <img
+    sizes=\\"100vw\\"
+    srcset=\\"triss_400w.jpg 400w, triss_800w.jpg 800w\\"
+    src=\\"triss_800w.jpg\\"
+    type=\\"image/jpeg\\">
+</picture>"
+`;
+
+exports[`One breakpoint and defaultBreakpoint example-6 snapshot 1`] = `
+"<picture>
+  <source
+    media=\\"(min-width: 768px)\\"
+    sizes=\\"50vw\\"
+    srcset=\\"triss_close-up_400w.webp 400w, triss_close-up_800w.webp 800w\\"
+    type=\\"image/webp\\">
+  <source
+    media=\\"(min-width: 768px)\\"
+    sizes=\\"50vw\\"
+    srcset=\\"triss_close-up_400w.jpg 400w, triss_close-up_800w.jpg 800w\\"
+    type=\\"image/jpeg\\">
+  <source
+    sizes=\\"100vw\\"
+    srcset=\\"triss_400w.webp 400w, triss_800w.webp 800w\\"
+    type=\\"image/webp\\">
+  <img
+    sizes=\\"100vw\\"
+    srcset=\\"triss_400w.jpg 400w, triss_800w.jpg 800w\\"
+    src=\\"triss_800w.jpg\\"
+    type=\\"image/jpeg\\">
+</picture>"
+`;
+
+exports[`One breakpoint example-3 snapshot 1`] = `
+"<picture>
+  <source
+    media=\\"(min-width: 768px)\\"
+    sizes=\\"100vw\\"
+    srcset=\\"triss_close-up_400w.webp 400w, triss_close-up_800w.webp 800w\\"
+    type=\\"image/webp\\">
+  <source
+    media=\\"(min-width: 768px)\\"
+    sizes=\\"100vw\\"
+    srcset=\\"triss_close-up_400w.jpg 400w, triss_close-up_800w.jpg 800w\\"
+    type=\\"image/jpeg\\">
+  <source
+    srcset=\\"triss_400w.webp 400w, triss_800w.webp 800w\\"
+    type=\\"image/webp\\">
+  <img
+    srcset=\\"triss_400w.jpg 400w, triss_800w.jpg 800w\\"
+    src=\\"triss_800w.jpg\\"
+    type=\\"image/jpeg\\">
+</picture>"
+`;
+
+exports[`Only defaultBreakpoint example-2 snapshot 1`] = `
+"<picture>
+  <source
+    sizes=\\"100vw\\"
+    srcset=\\"triss_close-up_400w.webp 400w, triss_close-up_800w.webp 800w\\"
+    type=\\"image/webp\\">
+  <img
+    sizes=\\"100vw\\"
+    srcset=\\"triss_close-up_400w.jpg 400w, triss_close-up_800w.jpg 800w\\"
+    src=\\"triss_close-up_800w.jpg\\"
+    type=\\"image/jpeg\\">
+</picture>"
+`;
+
+exports[`Without breakpoints example-1 snapshot 1`] = `
+"<picture>
+  <source
+    srcset=\\"triss_400w.webp 400w, triss_800w.webp 800w\\"
+    type=\\"image/webp\\">
+  <img
+    srcset=\\"triss_400w.jpg 400w, triss_800w.jpg 800w\\"
+    src=\\"triss_800w.jpg\\"
+    type=\\"image/jpeg\\">
+</picture>"
+`;
+
+exports[`consecutiveBreakpoints example-4 snapshot 1`] = `
+"<picture>
+  <source
+    sizes=\\"(min-width: 768px) 50vw, 100vw\\"
+    srcset=\\"triss_400w.webp 400w, triss_800w.webp 800w\\"
+    type=\\"image/webp\\">
+  <img
+    sizes=\\"(min-width: 768px) 50vw, 100vw\\"
+    srcset=\\"triss_400w.jpg 400w, triss_800w.jpg 800w\\"
+    src=\\"triss_800w.jpg\\"
+    type=\\"image/jpeg\\">
+</picture>"
+`;
+
+exports[`consecutiveBreakpoints with art example-5 snapshot 1`] = `
+"<picture>
+  <source
+    sizes=\\"(min-width: 768px) 50vw, 100vw\\"
+    srcset=\\"triss_close-up_400w.webp 400w, triss_close-up_800w.webp 800w\\"
+    type=\\"image/webp\\">
+  <img
+    sizes=\\"(min-width: 768px) 50vw, 100vw\\"
+    srcset=\\"triss_close-up_400w.jpg 400w, triss_close-up_800w.jpg 800w\\"
+    src=\\"triss_close-up_800w.jpg\\"
+    type=\\"image/jpeg\\">
+</picture>"
+`;

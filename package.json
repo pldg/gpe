@@ -1,0 +1,50 @@
+{
+  "name": "gpe",
+  "version": "0.1.0",
+  "license": "Apache-2.0",
+  "description": "Automate picture element generation",
+  "homepage": "https://github.com/pldg/gpe",
+  "author": {
+    "email": "luca.poldelmengo@gmail.com",
+    "name": "Luca Poldelmengo",
+    "url": "https://github.com/pldg"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pldg/gpe"
+  },
+  "bugs": {
+    "url": "https://github.com/pldg/gpe/issues"
+  },
+  "devDependencies": {
+    "jest": "^24.8.0"
+  },
+  "keywords": [
+    "gpe",
+    "generate",
+    "picture",
+    "element",
+    "elements",
+    "html",
+    "markup",
+    "responsive",
+    "image",
+    "images",
+    "img",
+    "source",
+    "tag",
+    "srcset",
+    "breakpoints",
+    "art",
+    "direction",
+    "media",
+    "query"
+  ],
+  "engines": {
+    "node": ">= 8"
+  },
+  "main": "./lib/main.js",
+  "scripts": {
+    "test": "jest ./tests/"
+  }
+}
