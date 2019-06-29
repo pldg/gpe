@@ -1,6 +1,4 @@
-# Picture element explained
-
-How `<picture>` element and responsive images works:
+# How picture element and responsive images works
 
 - [Article - MDN - The picture element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/picture)
 - [Article - MDN - Responsive images](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images)
