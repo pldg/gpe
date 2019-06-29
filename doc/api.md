@@ -96,3 +96,22 @@ Class attribute for `<picture>` element.
 *Default:* Use the largest width available from a set of candidates.
 
 Fallback width for `src` attribute.
+
+### `options.prefix`
+
+*Optional* <br>
+*Type:* `Object`
+
+Prefixes for attributes.
+
+| Key | Type | Default |
+|--|--|--|
+| `class` | `string` | `''`
+| `alt` | `string` | `''`
+| `media` | `string` | `''`
+| `size` | `string` | `''`
+| `srcset` | `string` | `''`
+| `src` | `string` | `''`
+| `type` | `string` | `''`
+
+You must add hyphen at the end, for example `options.prefix.src: 'data-'`.

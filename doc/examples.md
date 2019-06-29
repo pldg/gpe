@@ -152,7 +152,7 @@ generatePictureElement({
 
 ## Additional options
 
-Add `publicPath`, `src`, `alt`, `className`, options.
+Add `publicPath`, `src`, `alt`, `className`, `prefix` options.
 
 ```js
 generatePictureElement({
@@ -161,6 +161,10 @@ generatePictureElement({
   src: 400,
   alt: 'triss',
   className: 'triss-picture',
+  prefix: {
+    srcset: 'data-',
+    src: 'data-'
+  },
   breakpoints: [{
     size: '100vw'
   }]
@@ -174,13 +178,13 @@ generatePictureElement({
   <picture class="triss-picture">
     <source
       sizes="100vw"
-      srcset="images/triss_400w.webp 400w, images/triss_800w.webp 800w"
+      data-srcset="images/triss_400w.webp 400w, images/triss_800w.webp 800w"
       type="image/webp">
     <img
       alt="triss"
       sizes="100vw"
-      srcset="images/triss_400w.jpg 400w, images/triss_800w.jpg 800w"
-      src="images/triss_400w.jpg"
+      data-srcset="images/triss_400w.jpg 400w, images/triss_800w.jpg 800w"
+      data-src="images/triss_400w.jpg"
       type="image/jpeg">
   </picture>
   ```

@@ -13,6 +13,7 @@ Automate [`<picture>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element
 - Add public path
 - Add fallback `src`
 - Add `class` and `alt` attributes
+- Add prefix to attributes
 
 ## Install
 

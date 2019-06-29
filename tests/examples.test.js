@@ -50,3 +50,5 @@ describe('`src` warning', () => {
     expect(console.warn).toHaveBeenCalledWith(msg);
   });
 });
+
+describe('`prefix`', () => runSnapshotTest(14));

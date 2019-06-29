@@ -43,6 +43,20 @@ exports[`\`extensions\` example-8 snapshot 1`] = `
 </picture>"
 `;
 
+exports[`\`prefix\` example-14 snapshot 1`] = `
+"<picture>
+  <source
+    sizes=\\"100vw\\"
+    data-srcset=\\"triss_400w.webp 400w, triss_800w.webp 800w\\"
+    type=\\"image/webp\\">
+  <img
+    sizes=\\"100vw\\"
+    data-srcset=\\"triss_400w.jpg 400w, triss_800w.jpg 800w\\"
+    data-src=\\"triss_800w.jpg\\"
+    type=\\"image/jpeg\\">
+</picture>"
+`;
+
 exports[`\`publicPath\` example-11 snapshot 1`] = `
 "<picture>
   <source
