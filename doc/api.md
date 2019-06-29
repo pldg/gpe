@@ -17,7 +17,7 @@ List of `{ filename, ext, width, art }` objects.
 | `filename` | `string` | Filename (including extension) |
 | `ext` | `string` | Extension without dot |
 | `width` | `number` | Width dimension in px |
-| `art` | `string || undefined` | Art direction |
+| `art` | `string \|\| undefined` | Art direction |
 
 A candidate is an object representing a single file.
 
