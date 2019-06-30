@@ -11,7 +11,7 @@ Automate [`<picture>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element
 - Set `sizes` attribute
 - Set art direction
 - Add public path
-- Add fallback `src`
+- Add fallback `src` or placeholder
 - Add `class` and `alt` attributes
 - Add prefix to attributes
 

@@ -115,3 +115,11 @@ Prefixes for attributes.
 | `type` | `string` | `''`
 
 You must add hyphen at the end, for example `options.prefix.src: 'data-'`.
+
+### `options.placeholder`
+
+*Optional* <br>
+*Type:* `String` <br>
+*Default:* `undefined`
+
+Placeholder image for *src* attribute. It'll automatically output *data-src* attribute with the fallback `src`.

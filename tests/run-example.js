@@ -3,7 +3,7 @@
 /**
  * Run a specific example:
  *
- * `node tests/run-example.js 3 1`
+ * `node tests/run-example.js 3`
  *
  * where `3` is example number.
  */
@@ -14,7 +14,7 @@ const n = args[2];
 if (!n) throw new Error('Provide example number as first argument');
 
 const example = require(`./examples/example-${n}`);
-const candidates = require(`./candidates`);
+const candidates = require('./candidates');
 
 const output = example(candidates);
 

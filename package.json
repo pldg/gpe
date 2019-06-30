@@ -1,6 +1,6 @@
 {
   "name": "gpe",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "license": "Apache-2.0",
   "description": "Automate picture element generation",
   "homepage": "https://github.com/pldg/gpe",
@@ -24,21 +24,24 @@
     "generate",
     "picture",
     "element",
-    "elements",
     "html",
     "markup",
     "responsive",
-    "image",
     "images",
     "img",
     "source",
-    "tag",
     "srcset",
     "breakpoints",
     "art",
     "direction",
     "media",
-    "query"
+    "query",
+    "viewport",
+    "responsive design",
+    "responsive images",
+    "media queries",
+    "media query",
+    "picture element"
   ],
   "engines": {
     "node": ">= 8"

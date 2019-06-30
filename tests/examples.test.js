@@ -52,3 +52,4 @@ describe('`src` warning', () => {
 });
 
 describe('`prefix`', () => runSnapshotTest(14));
+describe('`placeholder`', () => runSnapshotTest(15));

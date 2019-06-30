@@ -190,3 +190,37 @@ generatePictureElement({
   ```
 
 </Details>
+
+## Placeholder
+
+Use `placeholder` option to add a low quality 1x1 pixel gif image as *src* attribute. It'll automatically output *data-src* attribute. If you want you can change *data-* using `prefix` option. The `placeholder` option is useful to work with packages like [vanilla-lazyload](https://github.com/verlok/lazyload/).
+
+```js
+generatePictureElement({
+  candidates,
+  breakpoints: [{
+    size: '100vw'
+  }],
+  placeholder: 'data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs='
+});
+```
+
+<Details>
+  <Summary>Output (click to expand)</Summary>
+
+  ```html
+  <picture>
+    <source
+      sizes="100vw"
+      srcset="triss_400w.webp 400w, triss_800w.webp 800w"
+      type="image/webp">
+    <img
+      sizes="100vw"
+      srcset="triss_400w.jpg 400w, triss_800w.jpg 800w"
+      data-src="triss_800w.jpg"
+      src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="
+      type="image/jpeg">
+  </picture>
+  ```
+
+</Details>
