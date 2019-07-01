@@ -44,7 +44,7 @@
     "picture element"
   ],
   "engines": {
-    "node": ">= 8"
+    "node": ">= 6"
   },
   "main": "./lib/main.js",
   "scripts": {
