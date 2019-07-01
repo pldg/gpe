@@ -39,9 +39,7 @@ describe('`src` warning', () => {
   const example = require('./examples/example-13');
   const output = example(candidates);
 
-  test('example-13 snapshot', () => {
-    expect(output).toMatchSnapshot();
-  });
+  test('example-13 snapshot', () => expect(output).toMatchSnapshot());
 
   test('example-13 `src` warning', () => {
     const msg = 'Warning: "600" width doesn\'t exist in candidates, ' +
@@ -53,3 +51,4 @@ describe('`src` warning', () => {
 
 describe('`prefix`', () => runSnapshotTest(14));
 describe('`placeholder`', () => runSnapshotTest(15));
+describe('`ie9`', () => runSnapshotTest(16));

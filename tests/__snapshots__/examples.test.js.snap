@@ -43,6 +43,22 @@ exports[`\`extensions\` example-8 snapshot 1`] = `
 </picture>"
 `;
 
+exports[`\`ie9\` example-16 snapshot 1`] = `
+"<picture>
+  <!--[if IE 9]><video style=\\"display: none\\"><![endif]-->
+  <source
+    sizes=\\"100vw\\"
+    srcset=\\"triss_400w.webp 400w, triss_800w.webp 800w\\"
+    type=\\"image/webp\\">
+  <!--[if IE 9]></video><![endif]-->
+  <img
+    sizes=\\"100vw\\"
+    srcset=\\"triss_400w.jpg 400w, triss_800w.jpg 800w\\"
+    src=\\"triss_800w.jpg\\"
+    type=\\"image/jpeg\\">
+</picture>"
+`;
+
 exports[`\`placeholder\` example-15 snapshot 1`] = `
 "<picture>
   <source

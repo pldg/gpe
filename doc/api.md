@@ -123,3 +123,11 @@ You must add hyphen at the end, for example `options.prefix.src: 'data-'`.
 *Default:* `undefined`
 
 Placeholder image for *src* attribute. It'll automatically output *data-src* attribute with the fallback `src`.
+
+### `options.ie9`
+
+*Optional* <br>
+*Type:* `Boolean` <br>
+*Default:* `false`
+
+Add conditional comments for Internet Explorer 9 support.
