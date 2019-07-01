@@ -48,6 +48,7 @@
   },
   "main": "./lib/main.js",
   "scripts": {
-    "test": "jest ./tests/"
+    "test": "jest ./tests/",
+    "example": "./tests/run-example.js"
   }
 }

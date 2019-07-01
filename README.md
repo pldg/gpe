@@ -93,11 +93,10 @@ Output:
 
 ## Test
 
-`npm run test`
+- Run all tests: `npm run test`
+- Run a specific example: `npm run example -- 1` (where `1` is the [example](tests/examples/) number)
 
 Use [jest](https://jestjs.io) as testing library.
-
-You can also run a specific example test with [*run-example.js*](tests/run-example.js).
 
 ## Contribution
 

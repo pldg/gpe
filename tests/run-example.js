@@ -11,7 +11,12 @@
 const args = process.argv;
 const n = args[2];
 
-if (!n) throw new Error('Provide example number as first argument');
+if (!n) {
+  throw new Error(
+    'Provide example number as first argument, ' +
+    'for example: `npm run example -- 1`'
+  );
+}
 
 const example = require(`./examples/example-${n}`);
 const candidates = require('./candidates');
