@@ -15,7 +15,7 @@ const candidates = generateCandidates({
 });
 ```
 
-Output [`candidates`](api.md#options.candidates) array will be:
+Output [`candidates`](api.md#optionscandidates) array will be:
 
 ```js
 [
