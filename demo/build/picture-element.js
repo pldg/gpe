@@ -7,7 +7,11 @@ const {
 // https://webpack.js.org/guides/dependency-management/#require-context
 // Returns list of filenames parsed by file-loader
 function getFilenames() {
-  const r = require.context('./images/processed-images', false, /\.(jpe?g|webp)$/);
+  const r = require.context(
+    '../images/processed-images',
+    false,
+    /\.(jpe?g|webp)$/
+  );
 
   return r.keys().map(file => r(file));
 }
