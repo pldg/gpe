@@ -1,7 +1,7 @@
 {
   "scripts": {
     "build:images": "node ./build/responsive-images.js",
-    "build:webpack": "webpack --config ./build/webpack.config.js --mode development",
+    "build:webpack": "webpack --mode development",
     "build": "npm run build:images && npm run build:webpack"
   },
   "devDependencies": {
