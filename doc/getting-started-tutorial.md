@@ -43,7 +43,7 @@ Each object represent a single file (a candidate image).
 You can generate `candidates` with the built in `generateCandidates` utility:
 
 ```js
-const { generateCandidates } = require('gpe');
+const generateCandidates = require('gpe/utils/generate-candidates');
 
 const candidates = generateCandidates({
   filenames,
@@ -58,7 +58,7 @@ The `generateCandidates` utility extract data from filenames using regex. Go to 
 The most simple way to generate a picture element is to execute `generatePictureElement` (the main program) with only the `candidates` option:
 
 ```js
-const { generatePictureElement } = require('gpe');
+const generatePictureElement = require('gpe');
 
 const pictureElement = generatePictureElement({
   candidates

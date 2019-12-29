@@ -31,7 +31,7 @@ Set of candidates with the same art may have different extensions and widths.
 *Type:* `String[]` <br>
 *Default:* `['webp', 'jp2', 'jxr', 'tiff', 'png', 'bmp', 'jpg', 'jpeg']`
 
-List of extensions. The extension index determinate the order of `<source>` elements. For example (by default) `<source>` with `webp` will come before `<source>` with `png`, and the last extension `jpeg` is used as fallback inside `<img>`.
+List of extensions to determinate the order of `<source>` elements. For example (by default) `<source>` with `webp` will come before `<source>` with `png`, and the last extension `jpeg` is used as fallback inside `<img>`.
 
 ### `options.breakpoints`
 
@@ -119,10 +119,10 @@ You must add hyphen at the end, for example `options.prefix.src: 'data-'`.
 ### `options.placeholder`
 
 *Optional* <br>
-*Type:* `String` <br>
+*Type:* `String||Boolean` <br>
 *Default:* `undefined`
 
-Placeholder image for *src* attribute. It'll automatically output *data-src* attribute with the fallback `src`.
+Set a placeholder for *src* and/or *srcset* attribute. If `true`, use the smallest width as `src` and `srcset`. If `string`, use that as `src` without altering `srcset`. Automatically output *data-src* and/or *data-srcset*.
 
 ### `options.ie9`
 

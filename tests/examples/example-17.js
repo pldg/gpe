@@ -4,8 +4,12 @@ module.exports = (candidates) => {
   return generatePictureElement({
     candidates,
     breakpoints: [{
-      size: '100vw'
+      mediaQuery: '768px',
+      size: '50vw'
+    }, {
+      size: '100vw',
+      art: 'close-up'
     }],
-    ie9: true
+    placeholder: true
   });
 };

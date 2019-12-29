@@ -3,9 +3,11 @@ const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
+  entry : path.resolve(process.cwd(), './src/index.js'),
   output: {
     filename: '[name].[chunkhash:4].js'
   },
+  mode: 'development',
   module: {
     rules: [
       {
@@ -23,7 +25,7 @@ module.exports = {
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
       template: path.resolve(process.cwd(), 'src/index.html'),
-      title: 'Generate Picture Element'
+      title: 'Generate picture element with webpack'
     })
   ]
 };

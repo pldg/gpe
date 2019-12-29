@@ -1,6 +1,4 @@
-const {
-  generatePictureElement
-} = require('../../lib/main');
+const generatePictureElement = require('../../lib/main');
 
 module.exports = (candidates) => {
   return generatePictureElement({

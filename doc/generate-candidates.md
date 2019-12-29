@@ -3,7 +3,7 @@
 How to use [*generate-candidates.js*](../lib/generate-candidates.js) utility.
 
 ```js
-const { generateCandidates } = require('gpe');
+const generateCandidates = require('gpe/utils/generate-candidates');
 
 const candidates = generateCandidates({
   filenames: [

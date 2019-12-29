@@ -4,12 +4,12 @@ exports[`\`alt\` example-9 snapshot 1`] = `
 "<picture>
   <source
     sizes=\\"100vw\\"
-    srcset=\\"triss_400w.webp 400w, triss_800w.webp 800w\\"
+    srcset=\\"triss_200w.webp 200w, triss_400w.webp 400w, triss_800w.webp 800w\\"
     type=\\"image/webp\\">
   <img
     alt=\\"triss\\"
     sizes=\\"100vw\\"
-    srcset=\\"triss_400w.jpg 400w, triss_800w.jpg 800w\\"
+    srcset=\\"triss_200w.jpg 200w, triss_400w.jpg 400w, triss_800w.jpg 800w\\"
     src=\\"triss_800w.jpg\\"
     type=\\"image/jpeg\\">
 </picture>"
@@ -19,11 +19,11 @@ exports[`\`className\` example-10 snapshot 1`] = `
 "<picture class=\\"triss\\">
   <source
     sizes=\\"100vw\\"
-    srcset=\\"triss_400w.webp 400w, triss_800w.webp 800w\\"
+    srcset=\\"triss_200w.webp 200w, triss_400w.webp 400w, triss_800w.webp 800w\\"
     type=\\"image/webp\\">
   <img
     sizes=\\"100vw\\"
-    srcset=\\"triss_400w.jpg 400w, triss_800w.jpg 800w\\"
+    srcset=\\"triss_200w.jpg 200w, triss_400w.jpg 400w, triss_800w.jpg 800w\\"
     src=\\"triss_800w.jpg\\"
     type=\\"image/jpeg\\">
 </picture>"
@@ -33,11 +33,11 @@ exports[`\`extensions\` example-8 snapshot 1`] = `
 "<picture>
   <source
     sizes=\\"100vw\\"
-    srcset=\\"triss_400w.jpg 400w, triss_800w.jpg 800w\\"
+    srcset=\\"triss_200w.jpg 200w, triss_400w.jpg 400w, triss_800w.jpg 800w\\"
     type=\\"image/jpeg\\">
   <img
     sizes=\\"100vw\\"
-    srcset=\\"triss_400w.webp 400w, triss_800w.webp 800w\\"
+    srcset=\\"triss_200w.webp 200w, triss_400w.webp 400w, triss_800w.webp 800w\\"
     src=\\"triss_800w.webp\\"
     type=\\"image/webp\\">
 </picture>"
@@ -48,13 +48,42 @@ exports[`\`ie9\` example-16 snapshot 1`] = `
   <!--[if IE 9]><video style=\\"display: none\\"><![endif]-->
   <source
     sizes=\\"100vw\\"
-    srcset=\\"triss_400w.webp 400w, triss_800w.webp 800w\\"
+    srcset=\\"triss_200w.webp 200w, triss_400w.webp 400w, triss_800w.webp 800w\\"
     type=\\"image/webp\\">
   <!--[if IE 9]></video><![endif]-->
   <img
     sizes=\\"100vw\\"
-    srcset=\\"triss_400w.jpg 400w, triss_800w.jpg 800w\\"
+    srcset=\\"triss_200w.jpg 200w, triss_400w.jpg 400w, triss_800w.jpg 800w\\"
     src=\\"triss_800w.jpg\\"
+    type=\\"image/jpeg\\">
+</picture>"
+`;
+
+exports[`\`placeholder===true\` example-17 snapshot 1`] = `
+"<picture>
+  <source
+    media=\\"(min-width: 768px)\\"
+    sizes=\\"50vw\\"
+    data-srcset=\\"triss_400w.webp 400w, triss_800w.webp 800w\\"
+    srcset=\\"triss_200w.webp 200w\\"
+    type=\\"image/webp\\">
+  <source
+    media=\\"(min-width: 768px)\\"
+    sizes=\\"50vw\\"
+    data-srcset=\\"triss_400w.jpg 400w, triss_800w.jpg 800w\\"
+    srcset=\\"triss_200w.jpg 200w\\"
+    type=\\"image/jpeg\\">
+  <source
+    sizes=\\"100vw\\"
+    data-srcset=\\"triss_close-up_400w.webp 400w, triss_close-up_800w.webp 800w\\"
+    srcset=\\"triss_close-up_200w.webp 200w\\"
+    type=\\"image/webp\\">
+  <img
+    sizes=\\"100vw\\"
+    data-srcset=\\"triss_close-up_400w.jpg 400w, triss_close-up_800w.jpg 800w\\"
+    srcset=\\"triss_close-up_200w.jpg 200w\\"
+    data-src=\\"triss_close-up_800w.jpg\\"
+    src=\\"triss_close-up_200w.jpg\\"
     type=\\"image/jpeg\\">
 </picture>"
 `;
@@ -63,11 +92,11 @@ exports[`\`placeholder\` example-15 snapshot 1`] = `
 "<picture>
   <source
     sizes=\\"100vw\\"
-    srcset=\\"triss_400w.webp 400w, triss_800w.webp 800w\\"
+    srcset=\\"triss_200w.webp 200w, triss_400w.webp 400w, triss_800w.webp 800w\\"
     type=\\"image/webp\\">
   <img
     sizes=\\"100vw\\"
-    srcset=\\"triss_400w.jpg 400w, triss_800w.jpg 800w\\"
+    srcset=\\"triss_200w.jpg 200w, triss_400w.jpg 400w, triss_800w.jpg 800w\\"
     data-src=\\"triss_800w.jpg\\"
     src=\\"data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=\\"
     type=\\"image/jpeg\\">
@@ -78,11 +107,11 @@ exports[`\`prefix\` example-14 snapshot 1`] = `
 "<picture>
   <source
     sizes=\\"100vw\\"
-    data-srcset=\\"triss_400w.webp 400w, triss_800w.webp 800w\\"
+    data-srcset=\\"triss_200w.webp 200w, triss_400w.webp 400w, triss_800w.webp 800w\\"
     type=\\"image/webp\\">
   <img
     sizes=\\"100vw\\"
-    data-srcset=\\"triss_400w.jpg 400w, triss_800w.jpg 800w\\"
+    data-srcset=\\"triss_200w.jpg 200w, triss_400w.jpg 400w, triss_800w.jpg 800w\\"
     data-src=\\"triss_800w.jpg\\"
     type=\\"image/jpeg\\">
 </picture>"
@@ -92,11 +121,11 @@ exports[`\`publicPath\` example-11 snapshot 1`] = `
 "<picture>
   <source
     sizes=\\"100vw\\"
-    srcset=\\"images/triss_400w.webp 400w, images/triss_800w.webp 800w\\"
+    srcset=\\"images/triss_200w.webp 200w, images/triss_400w.webp 400w, images/triss_800w.webp 800w\\"
     type=\\"image/webp\\">
   <img
     sizes=\\"100vw\\"
-    srcset=\\"images/triss_400w.jpg 400w, images/triss_800w.jpg 800w\\"
+    srcset=\\"images/triss_200w.jpg 200w, images/triss_400w.jpg 400w, images/triss_800w.jpg 800w\\"
     src=\\"images/triss_800w.jpg\\"
     type=\\"image/jpeg\\">
 </picture>"
@@ -106,11 +135,11 @@ exports[`\`src\` example-12 snapshot 1`] = `
 "<picture>
   <source
     sizes=\\"100vw\\"
-    srcset=\\"triss_400w.webp 400w, triss_800w.webp 800w\\"
+    srcset=\\"triss_200w.webp 200w, triss_400w.webp 400w, triss_800w.webp 800w\\"
     type=\\"image/webp\\">
   <img
     sizes=\\"100vw\\"
-    srcset=\\"triss_400w.jpg 400w, triss_800w.jpg 800w\\"
+    srcset=\\"triss_200w.jpg 200w, triss_400w.jpg 400w, triss_800w.jpg 800w\\"
     src=\\"triss_400w.jpg\\"
     type=\\"image/jpeg\\">
 </picture>"
@@ -120,11 +149,11 @@ exports[`\`src\` warning example-13 snapshot 1`] = `
 "<picture>
   <source
     sizes=\\"100vw\\"
-    srcset=\\"triss_400w.webp 400w, triss_800w.webp 800w\\"
+    srcset=\\"triss_200w.webp 200w, triss_400w.webp 400w, triss_800w.webp 800w\\"
     type=\\"image/webp\\">
   <img
     sizes=\\"100vw\\"
-    srcset=\\"triss_400w.jpg 400w, triss_800w.jpg 800w\\"
+    srcset=\\"triss_200w.jpg 200w, triss_400w.jpg 400w, triss_800w.jpg 800w\\"
     src=\\"triss_800w.jpg\\"
     type=\\"image/jpeg\\">
 </picture>"
@@ -135,20 +164,20 @@ exports[`One breakpoint and defaultBreakpoint example-6 snapshot 1`] = `
   <source
     media=\\"(min-width: 768px)\\"
     sizes=\\"50vw\\"
-    srcset=\\"triss_close-up_400w.webp 400w, triss_close-up_800w.webp 800w\\"
+    srcset=\\"triss_close-up_200w.webp 200w, triss_close-up_400w.webp 400w, triss_close-up_800w.webp 800w\\"
     type=\\"image/webp\\">
   <source
     media=\\"(min-width: 768px)\\"
     sizes=\\"50vw\\"
-    srcset=\\"triss_close-up_400w.jpg 400w, triss_close-up_800w.jpg 800w\\"
+    srcset=\\"triss_close-up_200w.jpg 200w, triss_close-up_400w.jpg 400w, triss_close-up_800w.jpg 800w\\"
     type=\\"image/jpeg\\">
   <source
     sizes=\\"100vw\\"
-    srcset=\\"triss_400w.webp 400w, triss_800w.webp 800w\\"
+    srcset=\\"triss_200w.webp 200w, triss_400w.webp 400w, triss_800w.webp 800w\\"
     type=\\"image/webp\\">
   <img
     sizes=\\"100vw\\"
-    srcset=\\"triss_400w.jpg 400w, triss_800w.jpg 800w\\"
+    srcset=\\"triss_200w.jpg 200w, triss_400w.jpg 400w, triss_800w.jpg 800w\\"
     src=\\"triss_800w.jpg\\"
     type=\\"image/jpeg\\">
 </picture>"
@@ -159,18 +188,18 @@ exports[`One breakpoint example-3 snapshot 1`] = `
   <source
     media=\\"(min-width: 768px)\\"
     sizes=\\"100vw\\"
-    srcset=\\"triss_close-up_400w.webp 400w, triss_close-up_800w.webp 800w\\"
+    srcset=\\"triss_close-up_200w.webp 200w, triss_close-up_400w.webp 400w, triss_close-up_800w.webp 800w\\"
     type=\\"image/webp\\">
   <source
     media=\\"(min-width: 768px)\\"
     sizes=\\"100vw\\"
-    srcset=\\"triss_close-up_400w.jpg 400w, triss_close-up_800w.jpg 800w\\"
+    srcset=\\"triss_close-up_200w.jpg 200w, triss_close-up_400w.jpg 400w, triss_close-up_800w.jpg 800w\\"
     type=\\"image/jpeg\\">
   <source
-    srcset=\\"triss_400w.webp 400w, triss_800w.webp 800w\\"
+    srcset=\\"triss_200w.webp 200w, triss_400w.webp 400w, triss_800w.webp 800w\\"
     type=\\"image/webp\\">
   <img
-    srcset=\\"triss_400w.jpg 400w, triss_800w.jpg 800w\\"
+    srcset=\\"triss_200w.jpg 200w, triss_400w.jpg 400w, triss_800w.jpg 800w\\"
     src=\\"triss_800w.jpg\\"
     type=\\"image/jpeg\\">
 </picture>"
@@ -180,11 +209,11 @@ exports[`Only defaultBreakpoint example-2 snapshot 1`] = `
 "<picture>
   <source
     sizes=\\"100vw\\"
-    srcset=\\"triss_close-up_400w.webp 400w, triss_close-up_800w.webp 800w\\"
+    srcset=\\"triss_close-up_200w.webp 200w, triss_close-up_400w.webp 400w, triss_close-up_800w.webp 800w\\"
     type=\\"image/webp\\">
   <img
     sizes=\\"100vw\\"
-    srcset=\\"triss_close-up_400w.jpg 400w, triss_close-up_800w.jpg 800w\\"
+    srcset=\\"triss_close-up_200w.jpg 200w, triss_close-up_400w.jpg 400w, triss_close-up_800w.jpg 800w\\"
     src=\\"triss_close-up_800w.jpg\\"
     type=\\"image/jpeg\\">
 </picture>"
@@ -193,10 +222,10 @@ exports[`Only defaultBreakpoint example-2 snapshot 1`] = `
 exports[`Without breakpoints example-1 snapshot 1`] = `
 "<picture>
   <source
-    srcset=\\"triss_400w.webp 400w, triss_800w.webp 800w\\"
+    srcset=\\"triss_200w.webp 200w, triss_400w.webp 400w, triss_800w.webp 800w\\"
     type=\\"image/webp\\">
   <img
-    srcset=\\"triss_400w.jpg 400w, triss_800w.jpg 800w\\"
+    srcset=\\"triss_200w.jpg 200w, triss_400w.jpg 400w, triss_800w.jpg 800w\\"
     src=\\"triss_800w.jpg\\"
     type=\\"image/jpeg\\">
 </picture>"
@@ -206,11 +235,11 @@ exports[`consecutiveBreakpoints example-4 snapshot 1`] = `
 "<picture>
   <source
     sizes=\\"(min-width: 768px) 50vw, 100vw\\"
-    srcset=\\"triss_400w.webp 400w, triss_800w.webp 800w\\"
+    srcset=\\"triss_200w.webp 200w, triss_400w.webp 400w, triss_800w.webp 800w\\"
     type=\\"image/webp\\">
   <img
     sizes=\\"(min-width: 768px) 50vw, 100vw\\"
-    srcset=\\"triss_400w.jpg 400w, triss_800w.jpg 800w\\"
+    srcset=\\"triss_200w.jpg 200w, triss_400w.jpg 400w, triss_800w.jpg 800w\\"
     src=\\"triss_800w.jpg\\"
     type=\\"image/jpeg\\">
 </picture>"
@@ -220,11 +249,11 @@ exports[`consecutiveBreakpoints with art example-5 snapshot 1`] = `
 "<picture>
   <source
     sizes=\\"(min-width: 768px) 50vw, 100vw\\"
-    srcset=\\"triss_close-up_400w.webp 400w, triss_close-up_800w.webp 800w\\"
+    srcset=\\"triss_close-up_200w.webp 200w, triss_close-up_400w.webp 400w, triss_close-up_800w.webp 800w\\"
     type=\\"image/webp\\">
   <img
     sizes=\\"(min-width: 768px) 50vw, 100vw\\"
-    srcset=\\"triss_close-up_400w.jpg 400w, triss_close-up_800w.jpg 800w\\"
+    srcset=\\"triss_close-up_200w.jpg 200w, triss_close-up_400w.jpg 400w, triss_close-up_800w.jpg 800w\\"
     src=\\"triss_close-up_800w.jpg\\"
     type=\\"image/jpeg\\">
 </picture>"

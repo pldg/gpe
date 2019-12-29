@@ -1,19 +1,18 @@
-const {
-  generateCandidates,
-  generatePictureElement
-} = require('../../lib/main');
+const generateCandidates = require('../../lib/utils/generate-candidates');
+const generatePictureElement = require('../../lib/main');
 
 // Read files from folder with webpack
 // https://webpack.js.org/guides/dependency-management/#require-context
 // Returns list of filenames parsed by file-loader
 function getFilenames() {
   const r = require.context(
-    '../images/processed-images',
+    '../images/responsive-images',
     false,
     /\.(jpe?g|webp)$/
   );
 
-  return r.keys().map(file => r(file));
+  // Note: newer version of Webpack require the use of .default
+  return r.keys().map(file => r(file).default);
 }
 
 const candidates = generateCandidates({

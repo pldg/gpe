@@ -43,7 +43,7 @@ describe('`src` warning', () => {
 
   test('example-13 `src` warning', () => {
     const msg = 'Warning: "600" width doesn\'t exist in candidates, ' +
-    'src attribute will fallback to the max width available: "triss_400w.jpg"';
+    'src attribute will fallback to the max width available';
 
     expect(console.warn).toHaveBeenCalledWith(msg);
   });
@@ -52,3 +52,4 @@ describe('`src` warning', () => {
 describe('`prefix`', () => runSnapshotTest(14));
 describe('`placeholder`', () => runSnapshotTest(15));
 describe('`ie9`', () => runSnapshotTest(16));
+describe('`placeholder===true`', () => runSnapshotTest(17));

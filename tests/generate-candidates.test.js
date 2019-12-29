@@ -2,7 +2,7 @@ const candidates = require('./candidates');
 const {
   isObjectLiteral,
   isNonEmptyString
-} = require('../lib/utils');
+} = require('../lib/utils/utils');
 
 test('Is array', () => expect(Array.isArray(candidates)).toBeTruthy());
 
@@ -30,5 +30,5 @@ test('Have correct types', () => {
   });
 
   expect(candidates[0].art).toBeUndefined();
-  expect(isNonEmptyString(candidates[4].art)).toBeTruthy();
+  expect(isNonEmptyString(candidates[6].art)).toBeTruthy();
 });
