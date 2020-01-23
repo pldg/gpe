@@ -43,7 +43,7 @@ Each object represent a single file (a candidate image).
 You can generate `candidates` with the built in `generateCandidates` utility:
 
 ```js
-const generateCandidates = require('gpe/utils/generate-candidates');
+const generateCandidates = require('gpe/lib/utils/generate-candidates');
 
 const candidates = generateCandidates({
   filenames,

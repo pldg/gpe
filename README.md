@@ -22,7 +22,7 @@ Automate [`<picture>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element
 ## Quick start
 
 ```js
-const generateCandidates = require('gpe/utils/generate-candidates');
+const generateCandidates = require('gpe/lib/utils/generate-candidates');
 const generatePictureElement = require('gpe');
 
 const candidates = generateCandidates({
