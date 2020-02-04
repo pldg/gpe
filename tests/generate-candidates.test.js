@@ -15,7 +15,7 @@ test('Contains only objects', () => {
 test('Have correct properties', () => {
   candidates.forEach(c => {
     expect(Object.keys(c).length).toBe(4);
-    expect(c).toHaveProperty('filename');
+    expect(c).toHaveProperty('filepath');
     expect(c).toHaveProperty('ext');
     expect(c).toHaveProperty('width');
     expect(c).toHaveProperty('art');
@@ -24,7 +24,7 @@ test('Have correct properties', () => {
 
 test('Have correct types', () => {
   candidates.forEach(c => {
-    expect(isNonEmptyString(c.filename)).toBeTruthy();
+    expect(isNonEmptyString(c.filepath)).toBeTruthy();
     expect(isNonEmptyString(c.ext)).toBeTruthy();
     expect(Number.isInteger(c.width)).toBeTruthy();
   });

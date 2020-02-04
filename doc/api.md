@@ -10,11 +10,11 @@
 *Required* <br>
 *Type:* `Object[]`
 
-List of `{ filename, ext, width, art }` objects.
+List of `{ filepath, ext, width, art }` objects.
 
 | Required Key | Type | Description |
 |--|--|--|
-| `filename` | `string` | Filename (including extension) |
+| `filepath` | `string` | `filename.exe` or `some_path/filename.exe` |
 | `ext` | `string` | Extension without dot |
 | `width` | `number` | Width dimension in px |
 | `art` | `string \|\| undefined` | Art direction |

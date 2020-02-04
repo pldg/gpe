@@ -6,9 +6,9 @@ How to use [*generate-candidates.js*](../lib/generate-candidates.js) utility.
 const generateCandidates = require('gpe/lib/utils/generate-candidates');
 
 const candidates = generateCandidates({
-  filenames: [
-    'triss_800w.jpg',
-    'triss_close-up_800w.jpg'
+  filepaths: [
+    '/images/triss_800w.jpg',
+    '/images/triss_close-up_800w.jpg'
   ],
   width: /_\d+w\./,
   art: /_.+_/
@@ -20,13 +20,13 @@ Output [`candidates`](api.md#optionscandidates) array will be:
 ```js
 [
   {
-    filename: "triss_800w.jpg",
+    filepath: "/images/triss_800w.jpg",
     ext: "jpg",
     width: 800,
     art: undefined
   },
   {
-    filename: "triss_close-up_800w.jpg",
+    filepath: "/images/triss_close-up_800w.jpg",
     ext: "jpg",
     width: 800,
     art: "close-up"
@@ -43,12 +43,12 @@ The `generateCandidates` utility works by extracting `ext`, `width` and `art` di
 *Required* <br>
 *Type:* `Object`
 
-### `options.filenames`
+### `options.filepaths`
 
 *Required* <br>
 *Type:* `String[]`
 
-List of `filename.ext` images.
+List of images: `filepath.ext` or `some_path/filename.exe`.
 
 ### `options.width`
 

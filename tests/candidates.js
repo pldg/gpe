@@ -1,7 +1,7 @@
 const generateCandidates = require('../lib/utils/generate-candidates');
 
 const candidates = generateCandidates({
-  filenames: [
+  filepaths: [
     'triss_200w.jpg',
     'triss_200w.webp',
     'triss_400w.jpg',

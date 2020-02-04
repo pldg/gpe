@@ -26,7 +26,7 @@ const generateCandidates = require('gpe/lib/utils/generate-candidates');
 const generatePictureElement = require('gpe');
 
 const candidates = generateCandidates({
-  filenames: [
+  filepaths: [
     'triss_400w.jpg',
     'triss_400w.webp',
     'triss_800w.jpg',

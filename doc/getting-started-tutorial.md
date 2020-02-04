@@ -17,10 +17,10 @@ There are a couple of ways to read files from a directory using nodejs, you can 
 
 If you use Webpack, you can import all images from a folder with [require.context](https://github.com/pldg/learn-webpack/tree/master/require-context) function.
 
-A list of filenames may look like this:
+A list of filepaths may look like this:
 
 ```js
-const filenames = [
+const filepaths = [
   'triss_400w.jpg',
   'triss_400w.webp',
   'triss_800w.jpg',
@@ -35,7 +35,7 @@ You can use whatever naming convention you want.
 The [main program](#generate-picture-element) require at least one option called `candidates` which is a list of objects:
 
 ```js
-{ filename, ext, width, art }
+{ filepath, ext, width, art }
 ```
 
 Each object represent a single file (a candidate image).
@@ -46,7 +46,7 @@ You can generate `candidates` with the built in `generateCandidates` utility:
 const generateCandidates = require('gpe/lib/utils/generate-candidates');
 
 const candidates = generateCandidates({
-  filenames,
+  filepaths,
   width: /_\d+w\./
 });
 ```

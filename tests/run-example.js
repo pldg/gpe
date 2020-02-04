@@ -3,7 +3,7 @@
 /**
  * Run a specific example:
  *
- * `node tests/run-example.js 3`
+ * `node ./tests/run-example.js 3`
  *
  * where `3` is example number.
  */

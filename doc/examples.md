@@ -4,7 +4,7 @@ Candidates are the same for all examples below.
 
 ```js
 const candidates = generateCandidates({
-  filenames: [
+  filepaths: [
     'triss_200w.jpg',
     'triss_200w.webp',
     'triss_400w.jpg',

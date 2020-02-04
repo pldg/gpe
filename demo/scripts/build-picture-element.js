@@ -3,8 +3,8 @@ const generatePictureElement = require('../../lib/main');
 
 // Read files from folder with webpack
 // https://webpack.js.org/guides/dependency-management/#require-context
-// Returns list of filenames parsed by file-loader
-function getFilenames() {
+// Returns list of filepaths parsed by file-loader
+function getFilepaths() {
   const r = require.context(
     '../images/responsive-images',
     false,
@@ -16,7 +16,7 @@ function getFilenames() {
 }
 
 const candidates = generateCandidates({
-  filenames: getFilenames(),
+  filepaths: getFilepaths(),
   width: /_\d+w\./,
   art: /_.+_/
 });
